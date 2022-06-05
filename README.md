@@ -8,7 +8,7 @@ Hi everyone, this repo will contain a bunch of materials for the workshop. Pleas
 ## Requirements
 Programmatic requirements for participants are:
  
-* [EnergyPlus 22.1.0](from: https://energyplus.net)
+* [EnergyPlus 22.1.0](https://energyplus.net)
 * Standard IDE (e.g., Visual Studio Code, Notepad++, atom, etc)
 * **recommended** new anaconda environment
     * Python 3.7
