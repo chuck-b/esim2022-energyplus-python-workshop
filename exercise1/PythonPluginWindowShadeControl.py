@@ -96,9 +96,9 @@ class SetShadeControlState(EnergyPlusPlugin):
         value_to_assign = self.ShadeStatusOff
 
         # add variable
-        tod  = self.handle_time_of_day = self.api.exchange.current_time()
+       
 
-        if (incident_angle_degrees < 45 or current_sensible_cool_rate > 20) and tod >= 9 and tod <=17:
+        if (incident_angle_degrees < 45 or current_sensible_cool_rate > 20):
             value_to_assign = self.ShadeStatusInteriorBlindOn
 
         
